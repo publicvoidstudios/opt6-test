@@ -1,0 +1,1 @@
+import{_ as o}from"./cmHaUQ6L.js";import{_,n as a,q as c,o as s,w as e,b as r,d as m}from"./3Wo5bT1u.js";const l={};function d(f,p){const t=o,n=c("main-element");return s(),a(n,null,{default:e(()=>[r(t,null,{default:e(()=>[m("Контакты")]),_:1})]),_:1})}const x=_(l,[["render",d]]);export{x as default};

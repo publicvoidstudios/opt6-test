@@ -1,1 +1,0 @@
-import{_ as t}from"./BGsinfbQ.js";import{_ as o,c as n,b as c,w as _,o as a,d as r}from"./D8ln0Fhh.js";const s={};function l(m,d){const e=t;return a(),n("main",null,[c(e,null,{default:_(()=>[r("Вход")]),_:1})])}const p=o(s,[["render",l]]);export{p as default};

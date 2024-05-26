@@ -1,0 +1,1 @@
+import{_ as t}from"./cmHaUQ6L.js";import{_ as o,c as n,b as c,w as _,o as a,d as r}from"./3Wo5bT1u.js";const s={};function l(m,d){const e=t;return a(),n("main",null,[c(e,null,{default:_(()=>[r("Вход")]),_:1})])}const p=o(s,[["render",l]]);export{p as default};

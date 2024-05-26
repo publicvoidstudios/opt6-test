@@ -1,1 +1,0 @@
-import{_ as o}from"./BGsinfbQ.js";import{_,n as a,w as e,q as c,o as r,b as s,d as m}from"./D8ln0Fhh.js";const l={};function f(d,p){const t=o,n=c("main-element");return r(),a(n,null,{default:e(()=>[s(t,null,{default:e(()=>[m("Тарифы")]),_:1})]),_:1})}const x=_(l,[["render",f]]);export{x as default};
