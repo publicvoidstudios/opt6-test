@@ -78,6 +78,7 @@
         border-radius: 7px;
         padding: 9px 18px;
         transition: all 0.2s ease-in-out;
+        margin-right: 0;
 
         &:hover {
           background-color: $color-primary-emphasis;
@@ -152,6 +153,7 @@
 
       .link-btn {
         font-size: 15px !important;
+        margin-right: 30px !important;
       }
     }
   }
