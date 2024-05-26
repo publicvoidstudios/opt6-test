@@ -3,7 +3,7 @@
     <nav class="container">
       <div class="nav-part">
         <nuxt-link to="/">
-          <img src="assets/compas.png" alt="Compas logo">
+          <img src="../public/compas.png" alt="Compas logo">
         </nuxt-link>
         <ul>
           <li>

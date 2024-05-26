@@ -1,32 +1,17 @@
 <template>
-  <div :class="{ 'show' : isVisible }" class="notification">
+  <div class="notification">
     {{ message }}
   </div>
 </template>
 
 <script setup>
-  import { defineProps, defineEmits, watchEffect } from 'vue';
+  import { defineProps } from 'vue';
 
-  const { message, isVisible } = defineProps({
+  const { message } = defineProps({
     message: {
       type: String,
       required: true,
       default: 'Default notification message'
-    },
-    isVisible: {
-      type: Boolean,
-      required: true,
-      default: false
-    }
-  });
-
-  const emit = defineEmits(['toggleNotification']);
-
-  watchEffect(() => {
-    if (isVisible) {
-      setTimeout(() => {
-        emit('toggleNotification');
-        }, 3000);
     }
   });
 </script>

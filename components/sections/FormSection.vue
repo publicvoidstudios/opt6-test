@@ -6,7 +6,7 @@
         <form-element @toggleModal="toggleModal"></form-element>
       </div>
       <div class="image">
-        <img src="@/assets/notebook.png" alt="Изображение ноутбука с открытым приложением для поиска штрафов">
+        <img src="../../public/notebook.png" alt="Изображение ноутбука с открытым приложением для поиска штрафов">
       </div>
     </div>
     <video-modal :hidden="modalHidden" @toggleModal="toggleModal"></video-modal>
@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue'
+import { ref } from 'vue'
 
 const modalHidden = ref(true)
 

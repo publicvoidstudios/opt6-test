@@ -3,9 +3,9 @@
     <h2 class="visually-hidden">{{document?.title}}</h2>
     <nav class="tiny-nav">
       <nuxt-link to="/">Главная страница</nuxt-link>
-      <span class="bullet">&nbsp;&nbsp;&nbsp;<img src="@/assets/dot.svg" alt="Точка">&nbsp;&nbsp;&nbsp;</span>
+      <span class="bullet">&nbsp;&nbsp;&nbsp;<img src="../../public/dot.svg" alt="Точка">&nbsp;&nbsp;&nbsp;</span>
       <nuxt-link to="/documents">Документы</nuxt-link>
-      <span class="bullet">&nbsp;&nbsp;&nbsp;<img src="@/assets/dot.svg" alt="Точка">&nbsp;&nbsp;&nbsp;</span>
+      <span class="bullet">&nbsp;&nbsp;&nbsp;<img src="../../public/dot.svg" alt="Точка">&nbsp;&nbsp;&nbsp;</span>
       <nuxt-link :to="'/documents/' + id" style="color: #8f8f8f">{{document?.title}}</nuxt-link>
     </nav>
     <article class="article">

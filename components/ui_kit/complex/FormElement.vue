@@ -12,15 +12,15 @@
       <label for="ts_reg">Свидетельство о регистрации ТС</label>
       <input @change="resetWarning(ts_reg)" ref="ts_reg" id="ts_reg" type="text" required>
     </div>
-    <button-primary @click.prevent="submitForm" name="Проверить штрафы" type="submit" image-end="/_nuxt/assets/arrow_narrow.svg" alt="Arrow right"></button-primary>
-    <button-secondary @click="showVideo" name="О сервисе" type="button" image-start="/_nuxt/assets/yt_vid_icon.svg" alt="Icon of video" span-end="(1 мин. 20 сек)"/>
+    <button-primary @click.prevent="submitForm" name="Проверить штрафы" type="submit" image-end="arrow_narrow.svg" alt="Arrow right"></button-primary>
+    <button-secondary @click="showVideo" name="О сервисе" type="button" image-start="yt_vid_icon.svg" alt="Icon of video" span-end="(1 мин. 20 сек)"/>
     <p class="disclaimer">Нажимая «Проверить штрафы» вы соглашаетесь с политикой обработки персональных данных и принимаете оферту</p>
     <notification :class="{ 'show' : showNotification }" :message="notificationMessage"></notification>
   </form>
 </template>
 
 <script setup>
-import{ ref, defineEmits } from 'vue'
+import{ ref } from 'vue'
 
 const emit = defineEmits(['toggleModal']);
 
@@ -46,7 +46,6 @@ const submitForm = () => {
 
   valid = !!(car_num.value?.value?.trim() && region.value?.value?.trim() && ts_reg.value?.value?.trim());
 
-  console.log(inputs)
   //Check if all fields are filled
   inputs.forEach(input => {
     //If value is empty

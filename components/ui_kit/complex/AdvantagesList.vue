@@ -1,37 +1,37 @@
 <template>
   <ul class="list">
     <advantage-element
-        src="/_nuxt/assets/unlimit.svg"
+        src="unlimit.svg"
         alt="иконка бесконечности"
         title="Неограниченый автопарк"
         description="Можно добавить неограниченное кол-во машин и водителей"
     />
     <advantage-element
-        src="/_nuxt/assets/map.svg"
+        src="map.svg"
         alt="иконка карты"
         title="Сокращение затрат до 50%"
         description="Максимально быстро узнаете о штрафах в автоматическом режиме, тем самым у вас есть время оплатить по скидке"
     />
     <advantage-element
-        src="/_nuxt/assets/security.svg"
+        src="security.svg"
         alt="иконка щита"
         title="Безопасность"
         description="Данные передаются в зашифрованном виде, они доступны только получателю"
     />
     <advantage-element
-        src="/_nuxt/assets/notification.svg"
+        src="notification.svg"
         alt="иконка бесконечности"
         title="Уведомление о погашении"
         description="Мы оповестим вас о том, что штраф был погашен и соответствующая запись создана в ГИС ГМП"
     />
     <advantage-element
-        src="/_nuxt/assets/paycheck.svg"
+        src="paycheck.svg"
         alt="иконка карты"
         title="Квитанция об оплате"
         description="После совершения оплаты банковской картой на Вашу электронную почту придет квитанция об успешной оплате."
     />
     <advantage-element
-        src="/_nuxt/assets/history.svg"
+        src="history.svg"
         alt="иконка щита"
         title="Все история сохраняется по каждой машине"
         description="Вся история штрафов сохраняется по машине и водителю, позволяет анализировать статистику по штрафам"

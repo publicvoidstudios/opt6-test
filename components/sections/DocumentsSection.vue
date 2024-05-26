@@ -13,10 +13,10 @@
       </ul>
       <div class="slider-controls">
         <button type="button" @click="prevSlide">
-          <img src="@/assets/arrow_left.png" alt="стрелка влево">
+          <img src="../../public/arrow_left.png" alt="стрелка влево">
         </button>
         <button type="button" @click="nextSlide">
-          <img src="@/assets/arrow_right.png" alt="стрелка вправо">
+          <img src="../../public/arrow_right.png" alt="стрелка вправо">
         </button>
       </div>
       <slider-radio :slides-count="radioButtonsCount" :current-slide="currentSlide" @switchSlide="switchSlide"></slider-radio>

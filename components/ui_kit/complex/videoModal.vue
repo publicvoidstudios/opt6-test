@@ -2,7 +2,7 @@
   <div class="modal" :class="{ 'visually-hidden' : hidden }" >
     <div class="modal-container">
       <span @click="toggleModal" class="close-btn">
-        <img src="../../../assets/cross.svg" alt="">
+        <img src="../../../public/cross.svg" alt="">
       </span>
       <iframe
           v-if="!hidden"
